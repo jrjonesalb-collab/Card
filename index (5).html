@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test McTesterson - JRB Construction</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #db2032 0%, #8b0000 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 400px;
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #db2032 0%, #a01825 100%);
+            padding: 40px 20px 20px;
+            text-align: center;
+            color: white;
+        }
+        
+        .logo {
+            width: 120px;
+            height: 120px;
+            background: white;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 24px;
+            color: #db2032;
+            border: 4px solid white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .title {
+            font-size: 16px;
+            opacity: 0.9;
+            margin-bottom: 10px;
+        }
+        
+        .company {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .contact-item:last-child {
+            border-bottom: none;
+        }
+        
+        .icon {
+            width: 40px;
+            height: 40px;
+            background: #f5f5f5;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            color: #db2032;
+            font-size: 18px;
+        }
+        
+        .contact-info {
+            flex: 1;
+        }
+        
+        .label {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 3px;
+        }
+        
+        .value {
+            font-size: 15px;
+            color: #333;
+            word-break: break-all;
+        }
+        
+        .value a {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        .buttons {
+            padding: 20px 30px 30px;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .btn {
+            flex: 1;
+            padding: 15px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .btn:active {
+            transform: scale(0.98);
+        }
+        
+        .btn-primary {
+            background: #db2032;
+            color: white;
+            box-shadow: 0 4px 12px rgba(219, 32, 50, 0.3);
+        }
+        
+        .btn-secondary {
+            background: #f5f5f5;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <div class="logo">JRB</div>
+            <div class="name">Test McTesterson</div>
+            <div class="title">Owner</div>
+            <div class="company">JRB Construction</div>
+        </div>
+        
+        <div class="content">
+            <div class="contact-item">
+                <div class="icon">📱</div>
+                <div class="contact-info">
+                    <div class="label">Phone</div>
+                    <div class="value"><a href="tel:+18175654565">+1-817-565-4565</a></div>
+                </div>
+            </div>
+            
+            <div class="contact-item">
+                <div class="icon">✉️</div>
+                <div class="contact-info">
+                    <div class="label">Email</div>
+                    <div class="value"><a href="mailto:test@test.com">test@test.com</a></div>
+                </div>
+            </div>
+            
+            <div class="contact-item">
+                <div class="icon">🌐</div>
+                <div class="contact-info">
+                    <div class="label">Website</div>
+                    <div class="value"><a href="https://test.com" target="_blank">test.com</a></div>
+                </div>
+            </div>
+            
+            <div class="contact-item">
+                <div class="icon">📍</div>
+                <div class="contact-info">
+                    <div class="label">Address</div>
+                    <div class="value">123 Drive, Here, TX</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="buttons">
+            <button class="btn btn-primary" onclick="saveContact()">💾 Save Contact</button>
+            <a href="tel:+18175654565" class="btn btn-secondary">📞 Call</a>
+        </div>
+    </div>
+    
+    <script>
+        function saveContact() {
+            const vcard = `BEGIN:VCARD
+VERSION:3.0
+FN:Test McTesterson
+N:McTesterson;Test;;;
+ORG:JRB Construction
+TITLE:Owner
+TEL;TYPE=CELL:+1-817-565-4565
+EMAIL:test@test.com
+URL:https://test.com
+ADR;TYPE=WORK:;;123 Drive;Here;TX;;USA
+END:VCARD`;
+            
+            const blob = new Blob([vcard], { type: 'text/vcard' });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'Test_McTesterson_JRB.vcf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+            
+            alert('✅ Contact saved! Check your downloads folder, then open the .vcf file to add to contacts.');
+        }
+    </script>
+</body>
+</html>
