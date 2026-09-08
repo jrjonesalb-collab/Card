@@ -53,3 +53,7 @@ Jordan confirmed iPhone contact saving works but reported missing photo. Downloa
 ## 2026-09-08 iPhone photo import confirmed
 Jordan checked the actual saved contact and confirmed the portrait works. The preceding missing-photo report applied to the import preview, not the saved contact. Release eae7757 accepted for this iPhone photo-import test; no further code change needed. Android and printed proof scans remain unverified.
 
+
+## 2026-09-08 end-of-day closeout
+Jordan requested closeout and will provide the remaining employee names tomorrow. Current accepted state: Option B live at original /Card/ URL; iPhone saved contact including portrait confirmed by Jordan. QR SVG/PNG available in print/. No further deployment needed. Next session: collect each employee's approved name, title, email, mobile and portrait; confirm shared website/address; create frozen slugs and verify before publishing. Android and print-proof scans remain pending. No new tests run for documentation-only closeout; previous build/lint/four tests and live checks passed.
+
