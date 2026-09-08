@@ -49,3 +49,7 @@ Jordan explicitly authorized public Card visibility and publishing. Pages enable
 ## 2026-09-08 contact portrait fix
 Jordan confirmed iPhone contact saving works but reported missing photo. Download previously omitted PHOTO. Embed original portrait bytes as vCard 3.0 PHOTO;ENCODING=b;TYPE=JPEG (RFC 2426 section 3.1.4), with CRLF line folding. Save link versioned to avoid reuse of cached text-only file. Build/lint and four tests pass, including decoding the generated photo and comparing exact source bytes. Publishing authorized; actual iPhone photo import retest remains pending.
 
+
+## 2026-09-08 iPhone photo import confirmed
+Jordan checked the actual saved contact and confirmed the portrait works. The preceding missing-photo report applied to the import preview, not the saved contact. Release eae7757 accepted for this iPhone photo-import test; no further code change needed. Android and printed proof scans remain unverified.
+
