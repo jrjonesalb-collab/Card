@@ -1,0 +1,8 @@
+node_modules/
+dist/
+artifacts/
+.env*
+.claude/*
+!.claude/settings.json
+!.claude/commands/
+!.claude/agents/

@@ -1,0 +1,1 @@
+{"name":"jrj-digital-cards","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs && node scripts/option-b.mjs","test":"node --test","lint":"node --check scripts/build.mjs && node --check scripts/option-b.mjs && node --check scripts/serve.mjs && node --check tests/card.test.mjs","preview":"node scripts/serve.mjs"}}
