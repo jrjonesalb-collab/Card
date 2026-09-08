@@ -25,3 +25,7 @@ Preserved the red-header card at /Card/. Added /Card/option-b/ with white logo a
 ## 2026-09-08 publishing plan gate
 Option B promoted to main local routes; Pages workflow prepared. Build/lint/3 tests and browser check pass. GitHub refused Pages creation with HTTP 422 because the plan does not support this private repository. No visibility change or publication. Requires explicit public-repository or eligible-plan decision. Original QR is not yet live.
 
+
+## 2026-09-08 LIVE release
+Jordan explicitly authorized public Card visibility and publishing. Pages enabled; release 0854832 deployed successfully in workflow 34283806473. Root and employee routes, styles, images and vCard return HTTP 200. Live phone-sized browser shows correct Option B, loaded images, correct action links and no overflow/errors. Print SVG/740px PNG created with four-module margin; independent decoder confirms original root URL. Actual phone contact imports and printed scans remain pending; existing QR destination preserved. No paid service or new domain.
+
