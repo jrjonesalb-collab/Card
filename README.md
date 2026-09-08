@@ -40,3 +40,6 @@ Print assets are in print/; the PNG was independently decoded to the permanent r
 ## Selected design
 
 Option B is now the shared main design in styles.css. The /Card/option-b/ review alias remains available; it is not a new QR destination. Future design edits should update styles.css and option-b.css together while the alias exists.
+
+Contact files now embed the original employee portrait as inline vCard 3.0 PHOTO data (https://www.rfc-editor.org/rfc/rfc2426#section-3.1.4). CSS crop is page-only; contact apps control photo framing. Jordan confirmed basic iPhone contact saving on September 8; photo-import retest remains pending.
+

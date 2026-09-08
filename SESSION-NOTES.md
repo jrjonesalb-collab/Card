@@ -29,3 +29,7 @@ Option B promoted to main local routes; Pages workflow prepared. Build/lint/3 te
 ## 2026-09-08 LIVE release
 Jordan explicitly authorized public Card visibility and publishing. Pages enabled; release 0854832 deployed successfully in workflow 34283806473. Root and employee routes, styles, images and vCard return HTTP 200. Live phone-sized browser shows correct Option B, loaded images, correct action links and no overflow/errors. Print SVG/740px PNG created with four-module margin; independent decoder confirms original root URL. Actual phone contact imports and printed scans remain pending; existing QR destination preserved. No paid service or new domain.
 
+
+## 2026-09-08 contact portrait fix
+Jordan confirmed iPhone contact saving works but reported missing photo. Download previously omitted PHOTO. Embed original portrait bytes as vCard 3.0 PHOTO;ENCODING=b;TYPE=JPEG (RFC 2426 section 3.1.4), with CRLF line folding. Save link versioned to avoid reuse of cached text-only file. Build/lint and four tests pass, including decoding the generated photo and comparing exact source bytes. Publishing authorized; actual iPhone photo import retest remains pending.
+
