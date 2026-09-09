@@ -1,3 +1,81 @@
 [
-  {"slug":"jordan-jones","firstName":"Jordan","lastName":"Jones","company":"JRJ Construction","title":"Owner/Chief Innovation Officer","email":"jjones@jrjinc.com","phone":"+18179910339","displayPhone":"817-991-0339","photo":"photo.jpg","photoPosition":"50% 0%","website":"https://jrjinc.com/","address":{"street":"1140 SW Ric Williamson Memorial Hwy","city":"Weatherford","region":"TX","postalCode":"76088"}}
+  {
+    "slug": "jordan-jones",
+    "firstName": "Jordan",
+    "lastName": "Jones",
+    "company": "JRJ Construction",
+    "title": "Owner/Chief Innovation Officer",
+    "email": "jjones@jrjinc.com",
+    "phone": "+18179910339",
+    "displayPhone": "817-991-0339",
+    "photo": "photo.jpg",
+    "photoPosition": "50% 0%",
+    "website": "https://jrjinc.com/",
+    "address": {
+      "street": "1140 SW Ric Williamson Memorial Hwy",
+      "city": "Weatherford",
+      "region": "TX",
+      "postalCode": "76088"
+    }
+  },
+  {
+    "slug": "piper-wise",
+    "company": "JRJ Construction",
+    "firstName": "Piper",
+    "title": "Operations Manager – Retail Construction",
+    "displayPhone": "817-694-7321",
+    "photoPosition": "50% 0%",
+    "photo": "piper-wise.jpg",
+    "phone": "+18176947321",
+    "lastName": "Wise",
+    "website": "https://jrjinc.com/",
+    "address": {
+      "street": "1140 SW Ric Williamson Memorial Hwy",
+      "city": "Weatherford",
+      "region": "TX",
+      "postalCode": "76088"
+    },
+    "photoScale": 1.5,
+    "email": "pwise@jrjinc.com"
+  },
+  {
+    "slug": "chris-bryan",
+    "company": "JRJ Construction",
+    "firstName": "Chris",
+    "title": "Director of Specialty Construction",
+    "displayPhone": "682-239-7278",
+    "photoPosition": "50% 0%",
+    "photo": "chris-bryan.jpg",
+    "phone": "+16822397278",
+    "lastName": "Bryan",
+    "website": "https://jrjinc.com/",
+    "address": {
+      "street": "1140 SW Ric Williamson Memorial Hwy",
+      "city": "Weatherford",
+      "region": "TX",
+      "postalCode": "76088"
+    },
+    "photoScale": 1.5,
+    "email": "cbryan@jrjinc.com"
+  },
+  {
+    "slug": "kyle-vick",
+    "company": "JRJ Construction",
+    "firstName": "Kyle",
+    "title": "Director of General Construction",
+    "displayPhone": "817-980-7834",
+    "photoPosition": "50% 0%",
+    "photo": "kyle-vick.jpg",
+    "phone": "+18179807834",
+    "lastName": "Vick",
+    "website": "https://jrjinc.com/",
+    "address": {
+      "street": "1140 SW Ric Williamson Memorial Hwy",
+      "city": "Weatherford",
+      "region": "TX",
+      "postalCode": "76088"
+    },
+    "photoScale": 1.5,
+    "email": "kvick@jrjinc.com"
+  }
 ]

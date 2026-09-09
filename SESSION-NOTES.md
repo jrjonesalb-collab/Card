@@ -41,3 +41,13 @@ Jordan checked the actual saved contact and confirmed the portrait works. The pr
 ## 2026-09-08 end-of-day closeout
 Jordan requested closeout and will provide the remaining employee names tomorrow. Current accepted state: Option B live at original /Card/ URL; iPhone saved contact including portrait confirmed by Jordan. QR SVG/PNG available in print/. No further deployment needed. Next session: collect each employee's approved name, title, email, mobile and portrait; confirm shared website/address; create frozen slugs and verify before publishing. Android and print-proof scans remain pending. No new tests run for documentation-only closeout; previous build/lint/four tests and live checks passed.
 
+
+## 2026-09-09 — first employee batch, local drafts
+
+Prepared Piper Wise (817-694-7321), Chris Bryan (682-239-7278), Kyle Vick (817-980-7834). Public live team page supplied portraits and titles; ASSET-SOURCES.md records URLs. Search-index response was stale; live HTML was used. Original WebP files preserved, full-resolution JPEG copies made for embedded contact photos. No retouching. Shared office/website retained. Individual emails are not public and have been requested from Jordan; omitted in drafts, never guessed.
+
+Build/lint/5 tests pass, including per-employee phone/photo separation and missing-email omission. Three 390px previews verified; narrow 320px check passed. Shared generator supports optional email and crop scale; QR script supports chosen employee slugs and still requires live verification. No QR files generated for unpublished routes. Local changes remain uncommitted pending email completion; production remains Jordan-only. Next: obtain emails, rebuild/test, publish employee routes, verify live and generate per-employee print QR.
+
+## 2026-09-09 employee batch ready to publish
+Jordan confirmed pwise@jrjinc.com, cbryan@jrjinc.com and kvick@jrjinc.com. All three cards now include Email and work-email vCard fields. Build/lint/five tests pass, including per-employee phone, email and embedded-image verification. Permanent paths: /Card/piper-wise/, /Card/chris-bryan/, /Card/kyle-vick/. Device imports and print proof checks remain pending.
+
