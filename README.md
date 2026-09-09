@@ -43,3 +43,7 @@ Option B is now the shared main design in styles.css. The /Card/option-b/ review
 
 Contact files now embed the original employee portrait as inline vCard 3.0 PHOTO data (https://www.rfc-editor.org/rfc/rfc2426#section-3.1.4). CSS crop is page-only; contact apps control photo framing. Jordan confirmed basic iPhone contact saving on September 8; photo-import retest remains pending.
 
+
+## Employee batch — September 9
+Piper Wise, Chris Bryan and Kyle Vick are live at their permanent slug routes. Public image/title sources are in ASSET-SOURCES.md; emails and mobile numbers were confirmed by Jordan. Optional photoScale controls CSS framing. Email may be omitted for local drafts, but confirm it before releasing a complete card. Run python scripts/make-qr.py followed by selected slugs to generate print assets after live verification. New employee phone imports still need actual device checks; Jordan's iPhone import with photo is confirmed.
+
