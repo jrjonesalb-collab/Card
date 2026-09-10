@@ -59,3 +59,14 @@ Release e63b558 deployed successfully in workflow 34372537535. Piper Wise, Chris
 ## 2026-09-09 blueprint QR concept
 Created a separate blueprint-style QR example for Jordan using deterministic vector/raster drawing: navy grid, dimension marks, title block and intact QR quiet zone. Output print/concepts/jordan-blueprint-qr.svg and .png, source scripts/blueprint-qr.py. PNG independently decoded at 1000/600/400px to the original /Card/ URL. SVG visually mirrors PNG but not independently rendered/decoded. Concept only; no site changes. Actual phone/print scan and design acceptance pending. No site tests rerun because site code is unchanged.
 
+
+## GSW draft — September 10
+Tom Allen's local card uses user-supplied original logo and portrait, GSW website/email/mobile, and the confirmed shared address. Optional logo, logoWidth, accent and accentHover fields support company branding; existing JRJ defaults remain unchanged. Title is omitted pending confirmation. Build/lint and six tests passed; 390x740 browser preview checked with no console errors. Not published; no new QR generated until live verification. Native phone import remains pending.
+
+September 10 revision: title confirmed Project Manager. Replaced transformed portrait scaling with direct dimensions preserving framing; enlarged GSW logo to 190px for lettering readability. Original files unchanged. Build/lint/six tests passed. Local visual review pending; not published.
+
+GSW logo visible left edge aligned to portrait by compensating for transparent source padding. Browser screenshot checked; build/lint/six tests pass. Preview only.
+
+Approved resize trial: added webPhoto support and Tom528x704 derivative. Browser screenshot appears smoother; user review pending. Build/lint/six tests pass, including original contact portrait bytes. Not published.
+
+Tom resized preview approved; user requested QR for external testing, authorizing release. Publishing GSW card at permanent tom-allen route.

@@ -47,3 +47,8 @@ Contact files now embed the original employee portrait as inline vCard 3.0 PHOTO
 ## Employee batch — September 9
 Piper Wise, Chris Bryan and Kyle Vick are live at their permanent slug routes. Public image/title sources are in ASSET-SOURCES.md; emails and mobile numbers were confirmed by Jordan. Optional photoScale controls CSS framing. Email may be omitted for local drafts, but confirm it before releasing a complete card. Run python scripts/make-qr.py followed by selected slugs to generate print assets after live verification. New employee phone imports still need actual device checks; Jordan's iPhone import with photo is confirmed.
 
+
+## Additional company branding
+An employee can set logo (asset filename), logoWidth (60–200 pixels), accent and accentHover (six-digit hex colors). Defaults retain JRJ branding. Copy the supplied logo into the repository. Title can be omitted while awaiting confirmation. Tom Allen's GSW draft is pending title confirmation and publication.
+
+Optional webPhoto selects a display-only derivative; photo remains the original embedded in the vCard. Tom uses a 528x704 Lanczos-resized JPEG, quality95, without retouching.
