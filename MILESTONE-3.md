@@ -4,3 +4,5 @@ Tom Allen draft at /Card/tom-allen/ adds isolated GSW branding and blue Save Con
 Title now confirmed Project Manager. Revised image sizing and larger logo ready for review; publication remains pending design review.
 
 Web-only resized portrait trial ready; saved contact retains original. Visual acceptance pending.
+
+Released fbbbf45: approved Tom card live. Live contact original photo verified; print/tom-allen-qr PNG/SVG generated and PNG decoded. User device testing remains.

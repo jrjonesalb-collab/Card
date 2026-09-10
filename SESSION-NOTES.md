@@ -70,3 +70,5 @@ GSW logo visible left edge aligned to portrait by compensating for transparent s
 Approved resize trial: added webPhoto support and Tom528x704 derivative. Browser screenshot appears smoother; user review pending. Build/lint/six tests pass, including original contact portrait bytes. Not published.
 
 Tom resized preview approved; user requested QR for external testing, authorizing release. Publishing GSW card at permanent tom-allen route.
+
+Tom LIVE at /Card/tom-allen/ (release fbbbf45). Live contact title/company/original portrait verified. QR PNG independently decoded to permanent URL; PNG/SVG and testing ZIP available. Actual phone import/printed scans pending.
